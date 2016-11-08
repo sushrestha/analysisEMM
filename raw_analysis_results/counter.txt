@@ -1,0 +1,14 @@
+Standard;java.io.File	10
+Potential Issue;Public Class Not Declared as Final	161
+Standard;java.io.FileReader	1
+Standard;Class Contains Inner Class	4
+Standard;java.io.FileOutputStream	3
+Low;Operation on Primitive Data Type	30
+Standard;getParameter	26
+Medium;Implicit Intents in Use	7
+Critical;Potential SQL Injection	1
+Medium;Failure To Release Resources In All Cases	3
+Suspicious Comment;Comment Indicates Potentially Unfinished Code	3
+Medium;Code Appears to Contain Hard-Coded Password	6
+Standard;getIntent	6
+High;java.lang.Runtime.exec Gets Path from Variable	2
