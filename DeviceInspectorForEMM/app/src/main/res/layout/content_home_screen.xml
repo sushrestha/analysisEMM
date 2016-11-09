@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="memphis.edu.deviceinspectorforemm.HomeScreen"
+    tools:showIn="@layout/activity_home_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_string"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect Root"
+        android:id="@+id/btnRoot"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect USB Enable"
+        android:id="@+id/btnUSB"
+        android:layout_below="@+id/btnRoot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnRoot"
+        android:layout_alignEnd="@+id/btnRoot" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect Unknown Source/ Non-Market"
+        android:id="@+id/btnUnkown"
+        android:layout_below="@+id/btnUSB"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnUSB"
+        android:layout_alignEnd="@+id/btnUSB" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect Hooking"
+        android:id="@+id/btnHooking"
+        android:layout_below="@+id/btnUnkown"
+        android:layout_alignRight="@+id/btnUnkown"
+        android:layout_alignEnd="@+id/btnUnkown"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect Mock Location"
+        android:id="@+id/btnMockLocation"
+        android:layout_below="@+id/btnUnkown"
+        android:layout_alignRight="@+id/btnUnkown"
+        android:layout_alignEnd="@+id/btnUnkown"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List all Installed Application"
+        android:id="@+id/btnInstalledApplication"
+        android:layout_below="@+id/btnMockLocation"
+        android:layout_alignRight="@+id/btnMockLocation"
+        android:layout_alignEnd="@+id/btnMockLocation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detect the Xposed Framework"
+        android:id="@+id/btnXposedFramework"
+        android:layout_below="@+id/btnInstalledApplication"
+        android:layout_alignRight="@+id/btnInstalledApplication"
+        android:layout_alignEnd="@+id/btnInstalledApplication"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Device Inspector For EMM</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_string">Welcome to first draft version of Device Inspector Tool for EMM </string>
+    <string name="warning_unknownSource">Installation of apps from unknown sources other than Play Store is enabled. Not Recommended</string>
+    <string name="ok_unknownSource">Unknown Source disabled</string>
+    <string name="ok_usbDebugging">USB debugging is not ON</string>
+    <string name="warning_usbDebugging">USB Debugging is ON. Not Recommended</string>
+    <string name="warning_mockLocation">Mock Location is Enabled. Not Recommended</string>
+    <string name="ok_mockLocation">Mock Location is not enabled.</string>
+    <string name="warning_rootDetection">warning_rootDetection. Not Recommended</string>
+    <string name="ok_rootDetection">ok_rootDetection</string>
+    <string name="warning_hookingDetection">warning_hookingDetection</string>
+    <string name="ok_hookingDetection">ok_hookingDetection.</string>
+
+
+</resources>
+
